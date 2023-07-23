@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230723135542">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap&_v=20230723135542" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,700&_v=20230723135542" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&_v=20230723135542" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap&_v=20230723135542" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?_v=20230723135542" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<main class="page">
+			<div class="header">
+				<picture>
+					<source media="(min-width: 1000px)" srcset="img/cubebike1500x800.png">
+					<source media="(max-width: 999px)" srcset="img/cubebike,de,mobile.jpg">
+					<img src="img/cubebike1500x800.png" alt="cubebike">
+				</picture>
+			</div>
+			<div class="clear">
+				<ul id="progress_bar">
+					<li class="first done">
+						<span><span class="fa"><span class="icon">&#xf00c;</span></span></span>
+					</li>
+					<li class="pull active  ">
+						<span><span class="fa"><span class="icon"> &#xf044; </span></span></span>
+					</li>
+					<li class="push">
+						<span><span class="fa"><span class="icon"> &#xf06b;</span></span></span>
+					</li>
+					<li class="last">
+						<span><span class="fa"><span class="icon">&#xf091;</span></span></span>
+					</li>
+				</ul>
+			</div>
+			<br clear="all">
+			<div class="noch">Noch:
+				<span>0:00</span>
+			</div>
+			<form class="form" action="#">
+				<h1 class="titl">Geben Sie Ihre Gewinndaten ein!</h1>
+				<p class="radio-block">
+					<input id="mfw_adressData_anrede1" class="radio" type="radio" name="adressData[anrede]" value="Herr">
+					<label for="mfw_adressData_anrede1">Herr</label><input id="mfw_adressData_anrede2" class="radio" type="radio" name="adressData[anrede]" value="Frau"><label for="mfw_adressData_anrede2">Frau</label>
+				</p>
+				<p class="inp-name">
+					<input value="" type="text" placeholder="Vorname">
+				</p>
+				<p class="inp-surname">
+					<input value="" type="text" placeholder="Nachname">
+				</p>
+				<p class="inp-email">
+					<input value="" type="text" placeholder="E-Mail-Adresse">
+				</p>
+
+				<input class="inp-submit" type="submit" value="Weiter" id="mfw_submit_adressInputStep1">
+
+			</form>
+			<div class="footer">
+				Dies ist ein Gewinnspiel der PELEMA PTE. LTD. Der dargestellte Markeninhaber oder Hersteller ist weder
+				Veranstalter noch Sponsor dieses Gewinnspiels und steht mit der Veranstalterin in keiner
+				geschäftlichen
+				Beziehung.
+				Die Auswahl der werbenden Unternehmen kann ich selbstbeeinflussen
+				Die Teilnahme am Gewinnspiel ist auch ohne Abgabe eines Werbeeinverständnisses möglich! Weitere Infos
+				dazu
+				<span class="link">hier</span>.
+				<span class="link">Teilnahmebedingungen</span> und <span class="link">Datenschutz</span> <span>gelesen und
+					akzeptiert.
+				</span>
+			</div>
+			<div class="footernav">
+				<span class="link">Impressum</span>
+				&middot; <span class="link">Datenschutz</span>
+				&middot; <span class="link">AGB</span>
+				&middot; <span class="link">Sponsorenliste</span>
+			</div>
+		</main>
+
+	</div>
+	<script src="js/app.min.js?_v=20230723135542"></script>
+</body>
+
+</html>
