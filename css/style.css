@@ -327,6 +327,31 @@ textarea {
   font-size: 1.3em;
 }
 
+.animation {
+  -webkit-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .noch {
   text-align: center;
   padding-top: 20px;
@@ -352,6 +377,21 @@ textarea {
 }
 
 input {
+  display: inline-block;
+  width: calc(100% - 6px);
+  height: 40px;
+  padding: 6px 4px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #767676;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
   display: inline-block;
   width: calc(100% - 6px);
   height: 40px;
